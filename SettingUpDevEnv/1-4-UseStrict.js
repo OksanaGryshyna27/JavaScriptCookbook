@@ -13,6 +13,6 @@ let endNumber = 15;
 console.log(addRange(startNumber, endNumber)); //Display 75
 
 //Now add numbers from 1 to 5
-startnumber = 1;
+startnumber = 1; // typo on purpose: lowercase "n" — see recipe 1.4
 endNumber = 5;
 console.log(addRange(startNumber, endNumber)); //Display 0, but we expected 15 because we are in strict mode and the variable sum is not defined in the function scope.

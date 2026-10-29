@@ -1,0 +1,1 @@
+const humburgerStory = 'I like humbergers' + String.fromCodePoint(0x1F354); // 🍔

@@ -1,0 +1,16 @@
+const favoriteMovie = 'My favorite movie is \'The Seventh Seal\'.';
+//My favorite movie is 'The Seventh Seal'.
+
+\' - sinqle quote   
+\" - double quote   
+\\ - backslash  
+\n - new line
+\t - tab
+\f - form feed
+\r - carriage return
+\ddd - octal value (ddd is 1 to 3 digits)
+\xdd - hexadecimal value (dd is 1 to 2 digits)
+\udddd - unicode value (dddd is 4 hex digits)
+
+const copyrightNotice = 'This page \u00A9 Shelley Powers 2024';
+// This page © Shelley Powers 2024
